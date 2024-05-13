@@ -8,18 +8,22 @@ import Company from './scenes/navbar/Company';
 
 const App: React.FC = () => {
   return (
-    <div>
-   <Router>
-    <Navigation></Navigation>
-      <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/marketplace" element={<Marketplace />} />
-        <Route path="/company" element={<Company />} />
-        <Route path="/home" element={<Home />} />
-      </Routes>
+    
+  <Router>
+      <div>
+        <Navigation /> {/* Navigation is placed outside of Routes */}
+        
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="*" element={<Home />} /> {/* Default route */}
+        </Routes>
+      </div>
     </Router>
+    
    
-    </div>
+    
   );
 };
 

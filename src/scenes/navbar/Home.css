@@ -1,0 +1,26 @@
+.slogan{
+    max-width: 750px;
+    height:120px;
+    margin-left: 50px;
+    position:relative;
+    top:150px;
+    background-color: yellow;
+}
+.text1{
+  
+    margin-left: 140px;
+    background-color: wheat;
+    margin-bottom: 50px;
+}
+.background{
+    background-image: url('../../assets/hero_banner_top.jpg');
+    background-size:cover ;
+    background-position: top;
+    position: relative;
+}
+.search1{
+    background-color: yellowgreen;
+    width: 800px;
+    height: 266px;
+    position: relative;
+}
