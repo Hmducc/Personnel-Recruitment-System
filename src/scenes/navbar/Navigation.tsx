@@ -15,7 +15,7 @@ const Navigation: React.FC = () => {
   return (
     <header className=" inset-x-0 top-0 z-50   ">
       <nav
-        className="flex items-center justify-between p-2 lg:px-8  "
+        className="flex items-center justify-between p-1 lg:px-8  "
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -34,19 +34,19 @@ const Navigation: React.FC = () => {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-28 ">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className=" font-semibold leading-6 text-main text-base"
             >
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="#" className="text-base font-semibold leading-6 text-main">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -62,19 +62,15 @@ const Navigation: React.FC = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <img className="h-8 w-auto" src={logo} alt="" />
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-main"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
-              <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              <XMarkIcon className="h-6 w-6 " aria-hidden="true" />
             </button>
           </div>
           <div className="mt-6 flow-root">
@@ -84,7 +80,7 @@ const Navigation: React.FC = () => {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-main hover:bg-blue-50"
                   >
                     {item.name}
                   </a>
@@ -93,7 +89,7 @@ const Navigation: React.FC = () => {
               <div className="py-6">
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-main hover:bg-blue-50"
                 >
                   Log in
                 </a>

@@ -1,18 +1,16 @@
 // App.tsx
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './scenes/navbar/Home';
-import Navigation from './scenes/navbar/Navigation';
-import Marketplace from './scenes/navbar/Markerplace';
-import Company from './scenes/navbar/Company';
+import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Company from "./scenes/navbar/Company";
+import Home from "./scenes/navbar/Home";
+import Marketplace from "./scenes/navbar/Markerplace";
+import Navigation from "./scenes/navbar/Navigation";
 
 const App: React.FC = () => {
   return (
-    
-  <Router>
+    <Router>
       <div>
         <Navigation /> {/* Navigation is placed outside of Routes */}
-        
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/marketplace" element={<Marketplace />} />
@@ -21,9 +19,6 @@ const App: React.FC = () => {
         </Routes>
       </div>
     </Router>
-    
-   
-    
   );
 };
 

@@ -4,7 +4,7 @@
     margin-left: 50px;
     position:relative;
     top:150px;
-    background-color: yellow;
+
 }
 .text1{
   
@@ -17,10 +17,55 @@
     background-size:cover ;
     background-position: top;
     position: relative;
+    height: calc(100vh);
+   
+    background-repeat: no-repeat;
 }
-.search1{
-    background-color: yellowgreen;
-    width: 800px;
-    height: 266px;
+
+.search{
+    background-color: white;
+    width: 900px;
+    z-index: 1;
     position: relative;
+    margin-top: 200px;
+    margin-left:50px;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    border-radius: 2px;
+}
+
+
+
+
+
+.full{
+    position: relative;
+    min-height: calc(-235px + 100vh);
+    background-color: aqua;
+}
+.tab_title{
+    list-style-position: initial;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+.searchbar{
+    width: 700px;
+}
+.kind{
+    color: #273896;
+    border-color: #273896 ;
+
+}
+.kind2{
+    color:#6e787c;
+    
+}
+.button1{
+    background-color: #273896;
+}
+.hashtag{
+    color: #273896;
 }
