@@ -574,7 +574,7 @@ const Home: React.FC = () => {
           </Swiper>
         </div>
       </div>
-      <footer className="bg-blue-500 footer">
+      <footer className="bg-blue-500 ">
         <div className="footer">
           <div className=" flex-wrap flex items-center pt-6 footercontent">
             <div className="left">
