@@ -1,0 +1,73 @@
+.main {
+    background-image: url('../../assets/loginbackground.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .blur1 {
+    width:750px;
+    height: 750px;
+    background-color: antiquewhite;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center child horizontally */
+    align-items: center; /* Center child vertically */
+    border-radius: 20px; /* Rounded corners */
+    backdrop-filter: blur(8px);
+    background-color: #181a1b66;
+  }
+  
+  .login {
+    width: 600px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow */
+    text-align: center; /* Center text */
+    height: 600px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  

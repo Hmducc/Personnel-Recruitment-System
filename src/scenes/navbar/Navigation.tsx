@@ -7,6 +7,8 @@ const navigation = [
   { name: "Features", href: "#" },
   { name: "Marketplace", href: "/marketplace" },
   { name: "Company", href: "/company" },
+  { name: "Login", href: "/login" },
+
 ];
 
 const Navigation: React.FC = () => {
@@ -18,8 +20,8 @@ const Navigation: React.FC = () => {
         className="flex items-center justify-between p-1 lg:px-8   "
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+        <div className="flex lg:flex-1 bg-red-500">
+          <a href="/home" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img className="h-16 w-auto" src={logo} alt="" />
           </a>
@@ -34,7 +36,7 @@ const Navigation: React.FC = () => {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-28 ">
+        <div className="hidden lg:flex lg:gap-x-28 bg-blue-500 ">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -45,8 +47,8 @@ const Navigation: React.FC = () => {
             </a>
           ))}
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-base font-semibold leading-6 text-main">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end bg-green-500">
+          <a href="/login" className="text-base font-semibold leading-6 text-main">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
