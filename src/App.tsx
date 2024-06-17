@@ -3,9 +3,9 @@ import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Company from "./scenes/navbar/Company";
 import Home from "./scenes/navbar/Home";
+import Login from "./scenes/navbar/Login";
 import Marketplace from "./scenes/navbar/Markerplace";
 import Navigation from "./scenes/navbar/Navigation";
-import Login from "./scenes/navbar/Login";
 
 const App: React.FC = () => {
   return (
