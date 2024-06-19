@@ -574,7 +574,7 @@ const Home: React.FC = () => {
           </Swiper>
         </div>
       </div>
-      <footer className="bg-blue-500 ">
+      <footer className="bg-blue-500">
         <div className="footer">
           <div className=" flex-wrap flex items-center pt-6 footercontent">
             <div className="left">
@@ -589,7 +589,7 @@ const Home: React.FC = () => {
                 <div className="dot ml-2 mr-2"></div>
                 <a
                   href="https://iviec.vn/privacy-policy"
-                  className="text-white mt-1  "
+                  className="text-white mt-1 policy   "
                 >
                   Privacy Policies
                 </a>

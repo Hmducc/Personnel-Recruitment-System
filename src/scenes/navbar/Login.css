@@ -14,10 +14,16 @@
 .poppins2{
   font-family: poppinslight;
 }
-
+@font-face {
+  font-family: poppinsmedium;
+  src: url(../../assets/Poppins-Medium.ttf);
+}
+.poppins3{
+  font-family: poppinsmedium;
+}
 
 .main {
-  background-image: url('../../assets/background4.jpg');
+  background-image: url('../../assets/loginbackground2.png');
   background-size: cover;
   background-position: top;
   position: relative;
@@ -30,7 +36,7 @@
 
 .blur1 {
   width: 539px;
-  height: 730px;
+  height: 700px;
   background-color: #ffffff;
   display: flex; /* Use flexbox */
   justify-content: center; /* Center child horizontally */
@@ -41,6 +47,7 @@
 }
 .logintext{
   color: #666666;
+  font-size: 15px;
 
   
   
@@ -54,7 +61,7 @@
 }
 .input{
   border-radius: 10px;
-  height: 50px;
+  height: 48px;
   
 }
 .login-title {
@@ -63,13 +70,64 @@
   text-align: left;
   
 }
+.tick {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .checkbox{
   
   color: #333;
-  margin-top: 20px;
-  font-size: 13px;
+  margin-top: 30px;
+  font-size: 15px;
+
   
+}
+.signup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin-top: 30px;
+}
+.signup2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.acc{
+  color: #333;
+  margin-top: 10px;
+  font-size: 15px;
+  display: inline-block;
+
+}
+.signup-link {
+  
+  text-decoration: none;
+  margin-left: 5px; /* Adjust spacing between text and link */
+
+}
+.captcha{
+
+  width: 350px;;
+  text-align: left;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+.help{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333;
 }
 
 .login-form  {
@@ -132,8 +190,8 @@
 
   color: white;
   border: none;
-  border-radius: 32px;
-  font-size: 16px;
+  border-radius: 25px;
+  font-size: 17px;
   cursor: pointer;
   
 }
