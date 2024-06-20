@@ -84,7 +84,7 @@
 
   
 }
-.signup{
+.signup-inlogin{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,7 +107,7 @@
 }
 .signup-link {
   
-  text-decoration: none;
+  text-decoration: underline;
   margin-left: 5px; /* Adjust spacing between text and link */
 
 }

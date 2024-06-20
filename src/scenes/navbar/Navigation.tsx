@@ -2,6 +2,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import React, { useState } from "react";
 import logo from "../../assets/usthlogo.png";
+import "./Navigation.css";
 const navigation = [
   { name: "Home", href: "/home" },
   { name: "Features", href: "#" },
@@ -39,17 +40,14 @@ const Navigation: React.FC = () => {
             <a
               key={item.name}
               href={item.href}
-              className=" font-semibold leading-6 text-main text-base"
+              className=" poppins3 leading-6 text-main text-base"
             >
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end LOGINNAMODAY">
-          <a
-            href="/login"
-            className="text-base font-semibold leading-6 text-main"
-          >
+          <a href="/login" className="text-base poppins3 leading-6 text-main">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>

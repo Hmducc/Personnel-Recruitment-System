@@ -227,7 +227,7 @@ const Home: React.FC = () => {
       <article className="background firstpart">
         <div className="container">
           <div className="slogan">
-            <h1 className="text-6xl absolute">
+            <h1 className="text-6xl absolute ">
               <span className="font-light text-gray-600">From</span>
               <span className="ml-3 kind text-7xl">College</span>
               <span className="ml-3 font-light text-gray-600">to</span>

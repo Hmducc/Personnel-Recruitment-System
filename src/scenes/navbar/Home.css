@@ -1,6 +1,13 @@
 body{
     font-family: dmSans;
 }
+@font-face {
+    font-family: poppinsregular;
+    src: url(../../assets/Poppins-Regular.ttf);
+  }
+  .poppins{
+    font-family: poppinsregular;
+  }
 .slogan{
     max-width: 750px;
     height:120px;
