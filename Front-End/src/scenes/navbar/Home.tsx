@@ -601,7 +601,7 @@ const Home: React.FC = () => {
             <div className="right">
               <span className="text-white email ">
                 Address: Floor 15, FPT Tower, 10 Pham Van Bach Street, Cau Giay
-                District, Hanoi
+                District,
               </span>
               <div className="email mt-6">
                 <span className="text-white">
