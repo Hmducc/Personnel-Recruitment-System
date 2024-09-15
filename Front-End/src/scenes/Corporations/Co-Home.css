@@ -1,0 +1,9 @@
+.co-nav {
+  height: 80px;
+}
+.co-nav-login {
+  position: absolute;
+  right: 20px;
+  align-items: center;
+  display: flex;
+}
